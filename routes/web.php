@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RecruitmentController;
 use App\Http\Controllers\WimisController;
 use App\Http\Controllers\DataKMController;
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -23,7 +24,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     })->name('placeholder');
     
     // Dashboard & Smart Recruitment
-    Route::get('/dashboard', function () { return view('dashboard'); })->name('dashboard');
+    // Route::get('/dashboard', function () { return view('dashboard'); })->name('dashboard');
+    Route::get('/dashboard',[DashboardController::class, 'index'])->name('dashboard');
     Route::post('/cv/process',[RecruitmentController::class, 'processCV'])->name('cv.process');
     Route::get('/vacancy', function () { return view('layouts.vacancy'); })->name('vacancy');
     

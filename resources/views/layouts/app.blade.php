@@ -52,145 +52,8 @@
                         },
 
                         {
-                            name: 'Agenda Project',
-                            url: '{{ route('placeholder', 'agenda-project') }}'
-                        },
-
-                        {
-                            name: 'Disposisi',
-                            children: [
-
-                                {
-                                    name: 'Surat Masuk',
-                                    url: '{{ route('placeholder', 'surat-masuk') }}'
-                                },
-
-                                {
-                                    name: 'Pelayanan',
-                                    url: '{{ route('placeholder', 'pelayanan') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Surat Internal',
-                            children: [
-
-                                {
-                                    name: 'Inbox',
-                                    url: '{{ route('placeholder', 'inbox') }}'
-                                },
-
-                                {
-                                    name: 'Outbox',
-                                    url: '{{ route('placeholder', 'outbox') }}'
-                                },
-
-                                {
-                                    name: 'Compose',
-                                    url: '{{ route('placeholder', 'compose') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Directory',
-                            children: [
-
-                                {
-                                    name: 'Information',
-                                    url: '{{ route('placeholder', 'information') }}'
-                                },
-
-                                {
-                                    name: 'Photo Gallery',
-                                    url: '{{ route('placeholder', 'photo-gallery') }}'
-                                },
-
-                                {
-                                    name: 'Document',
-                                    url: '{{ route('placeholder', 'document') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Tools',
-                            children: [
-
-                                {
-                                    name: 'Voting',
-                                    url: '{{ route('placeholder', 'voting') }}'
-                                },
-
-                                {
-                                    name: 'Lelang',
-                                    url: '{{ route('placeholder', 'lelang') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Management',
-                            children: [
-
-                                {
-                                    name: 'Memo',
-                                    url: '{{ route('placeholder', 'memo') }}'
-                                },
-
-                                {
-                                    name: 'Kebutuhan',
-                                    url: '{{ route('placeholder', 'kebutuhan') }}'
-                                },
-
-                                {
-                                    name: 'Vacancy',
-                                    url: '{{ route('vacancy') }}'
-                                },
-
-                                {
-                                    name: 'Dokumen',
-                                    url: '{{ route('placeholder', 'dokumen') }}'
-                                },
-
-                                {
-                                    name: 'Staffing',
-                                    children: [
-
-                                        {
-                                            name: 'Evaluasi kinerja',
-                                            url: '{{ route('placeholder', 'evaluasi-kinerja') }}'
-                                        },
-
-                                        {
-                                            name: 'KPI',
-                                            url: '{{ route('placeholder', 'kpi') }}'
-                                        },
-
-                                        {
-                                            name: 'Sertifikasi',
-                                            url: '{{ route('placeholder', 'sertifikasi') }}'
-                                        },
-
-                                        {
-                                            name: 'Credit',
-                                            url: '{{ route('placeholder', 'credit') }}'
-                                        },
-
-                                        {
-                                            name: 'Resign',
-                                            url: '{{ route('placeholder', 'resign') }}'
-                                        }
-
-                                    ]
-                                }
-
-                            ]
+                            name: 'Vacancy',
+                            url: '{{ route('vacancy') }}'
                         }
 
                     ]
@@ -204,143 +67,13 @@
                     children: [
 
                         {
-                            name: 'Kegiatan',
-                            children: [
-
-                                {
-                                    name: 'Usulan B1',
-                                    url: '{{ route('mydata.usulan.b1') }}'
-                                },
-
-                                {
-                                    name: 'Laporan B2',
-                                    url: '{{ route('placeholder', 'laporan-b2') }}'
-                                },
-
-                                {
-                                    name: 'Timesheet B3',
-                                    url: '{{ route('mydata.timesheet') }}'
-                                }
-
-                            ]
+                            name: 'Usulan B1',
+                            url: '{{ route('mydata.usulan.b1') }}'
                         },
 
                         {
-                            name: 'Keuangan',
-                            children: [
-
-                                {
-                                    name: 'Request / Claim',
-                                    url: '{{ route('placeholder', 'request-claim') }}'
-                                },
-
-                                {
-                                    name: 'Invoice',
-                                    url: '{{ route('placeholder', 'invoice') }}'
-                                },
-
-                                {
-                                    name: 'Gaji & Kontrak',
-                                    url: '{{ route('placeholder', 'gaji-kontrak') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Cuti & Izin',
-                            children: [
-
-                                {
-                                    name: 'Cuti C1',
-                                    url: '{{ route('placeholder', 'cuti-c1') }}'
-                                },
-
-                                {
-                                    name: 'Izin C2',
-                                    url: '{{ route('placeholder', 'izin-c2') }}'
-                                },
-
-                                {
-                                    name: 'Claim Libur C3',
-                                    url: '{{ route('placeholder', 'claim-libur-c3') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Peningkatan Kapasitas',
-                            children: [
-
-                                {
-                                    name: 'Pelatihan',
-                                    url: '{{ route('placeholder', 'pelatihan') }}'
-                                },
-
-                                {
-                                    name: 'Sertifikasi',
-                                    url: '{{ route('placeholder', 'sertifikasi') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Pengajuan',
-                            children: [
-
-                                {
-                                    name: 'Stok',
-                                    url: '{{ route('placeholder', 'stok') }}'
-                                },
-
-                                {
-                                    name: 'Peminjaman',
-                                    url: '{{ route('placeholder', 'peminjaman') }}'
-                                },
-
-                                {
-                                    name: 'Pustaka',
-                                    url: '{{ route('placeholder', 'pustaka') }}'
-                                },
-
-                                {
-                                    name: 'Pelayanan',
-                                    url: '{{ route('placeholder', 'pelayanan') }}'
-                                },
-
-                                {
-                                    name: 'Purchasing',
-                                    url: '{{ route('placeholder', 'purchasing') }}'
-                                },
-
-                                {
-                                    name: 'ODR',
-                                    url: '{{ route('placeholder', 'odr') }}'
-                                },
-
-                                {
-                                    name: 'Vacancy',
-                                    url: '{{ route('placeholder', 'vacancy-menu') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Profile',
-                            url: '{{ route('placeholder', 'profile') }}'
-                        },
-
-                        {
-                            name: 'Mynote',
-                            url: '{{ route('placeholder', 'mynote') }}'
-                        },
-
-                        {
-                            name: 'MyPhoto',
-                            url: '{{ route('placeholder', 'myphoto') }}'
+                            name: 'Timesheet B3',
+                            url: '{{ route('mydata.timesheet') }}'
                         }
 
                     ]
@@ -354,84 +87,13 @@
                     children: [
 
                         {
-                            name: 'Kegiatan',
-                            children: [
-
-                                {
-                                    name: 'Usulan B1',
-                                    url: '{{ route('formulir.b1') }}'
-                                },
-
-                                {
-                                    name: 'Timesheet B3',
-                                    url: '{{ route('formulir.timesheet') }}'
-                                }
-
-                            ]
+                            name: 'Usulan B1',
+                            url: '{{ route('formulir.b1') }}'
                         },
 
                         {
-                            name: 'Cuti & Izin',
-                            children: [
-
-                                {
-                                    name: 'Cuti C1',
-                                    url: '{{ route('placeholder', 'cuti-c1') }}'
-                                },
-
-                                {
-                                    name: 'Izin C2',
-                                    url: '{{ route('placeholder', 'izin-c2') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Inventaris',
-                            children: [
-
-                                {
-                                    name: 'Bengkulu',
-                                    url: '{{ route('placeholder', 'bengkulu') }}'
-                                },
-
-                                {
-                                    name: 'Jambi',
-                                    url: '{{ route('placeholder', 'jambi') }}'
-                                },
-
-                                {
-                                    name: 'Malinau',
-                                    url: '{{ route('placeholder', 'malinau') }}'
-                                },
-
-                                {
-                                    name: 'Sumbar',
-                                    url: '{{ route('placeholder', 'sumbar') }}'
-                                },
-
-                                {
-                                    name: 'Tanjung Selor',
-                                    url: '{{ route('placeholder', 'tanjung-selor') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Pustaka',
-                            url: '{{ route('placeholder', 'pustaka') }}'
-                        },
-
-                        {
-                            name: 'Sertifikasi',
-                            url: '{{ route('placeholder', 'sertifikasi') }}'
-                        },
-
-                        {
-                            name: 'Permintaan',
-                            url: '{{ route('placeholder', 'permintaan') }}'
+                            name: 'Timesheet B3',
+                            url: '{{ route('formulir.timesheet') }}'
                         }
 
                     ]
@@ -440,184 +102,24 @@
                 // =========================================================
                 // APPROVAL
                 // =========================================================
+                @if(auth()->user()->role === 'coordinator')
                 {
                     name: 'Approval',
                     children: [
 
                         {
-                            name: 'Kegiatan',
-                            children: [
-
-                                {
-                                    name: 'Usulan B1',
-                                    url: '{{ route('approval.usulan') }}'
-                                },
-
-                                {
-                                    name: 'Laporan',
-                                    url: '{{ route('approval.laporan') }}'
-                                },
-
-                                {
-                                    name: 'Timesheet',
-                                    url: '{{ route('approval.timesheet') }}'
-                                }
-
-                            ]
+                            name: 'Usulan B1',
+                            url: '{{ route('approval.usulan') }}'
                         },
 
                         {
-                            name: 'Keuangan',
-                            children: [
-
-                                {
-                                    name: 'Request',
-                                    url: '{{ route('placeholder', 'request') }}'
-                                },
-
-                                {
-                                    name: 'Claim',
-                                    url: '{{ route('placeholder', 'claim') }}'
-                                },
-
-                                {
-                                    name: 'Invoice',
-                                    url: '{{ route('placeholder', 'invoice') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Cuti & Izin',
-                            children: [
-
-                                {
-                                    name: 'Cuti',
-                                    url: '{{ route('placeholder', 'cuti') }}'
-                                },
-
-                                {
-                                    name: 'Izin',
-                                    url: '{{ route('placeholder', 'izin') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Permintaan',
-                            children: [
-
-                                {
-                                    name: 'Purchasing',
-                                    url: '{{ route('placeholder', 'purchasing') }}'
-                                },
-
-                                {
-                                    name: 'Peminjaman',
-                                    url: '{{ route('placeholder', 'peminjaman') }}'
-                                },
-
-                                {
-                                    name: 'Stok',
-                                    url: '{{ route('placeholder', 'stok') }}'
-                                },
-
-                                {
-                                    name: 'Pelatihan',
-                                    url: '{{ route('placeholder', 'pelatihan') }}'
-                                },
-
-                                {
-                                    name: 'ODR',
-                                    url: '{{ route('placeholder', 'odr') }}'
-                                },
-
-                                {
-                                    name: 'Staff Resign',
-                                    url: '{{ route('placeholder', 'staff-resign') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Uji Kompetensi',
-                            url: '{{ route('placeholder', 'uji-kompetensi') }}'
+                            name: 'Timesheet B3',
+                            url: '{{ route('approval.timesheet') }}'
                         }
 
                     ]
                 },
-
-                // =========================================================
-                // DATA MANAGER
-                // =========================================================
-                {
-                    name: 'Data Manager',
-                    children: [
-
-                        {
-                            name: 'Profile',
-                            url: '{{ route('placeholder', 'dm-profile') }}'
-                        },
-
-                        {
-                            name: 'Keuangan',
-                            url: '{{ route('placeholder', 'dm-keuangan') }}'
-                        },
-
-                        {
-                            name: 'Cuti Claim',
-                            url: '{{ route('placeholder', 'dm-cuti-claim') }}'
-                        },
-
-                        {
-                            name: 'Permintaan',
-                            children: [
-
-                                {
-                                    name: 'Peminjaman',
-                                    url: '{{ route('placeholder', 'dm-peminjaman') }}'
-                                },
-
-                                {
-                                    name: 'Pelatihan',
-                                    url: '{{ route('placeholder', 'dm-pelatihan') }}'
-                                },
-
-                                {
-                                    name: 'Pelayanan',
-                                    url: '{{ route('placeholder', 'dm-pelayanan') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Staffing',
-                            children: [
-
-                                {
-                                    name: 'Evaluasi Kinerja',
-                                    url: '{{ route('placeholder', 'dm-evaluasi-kinerja') }}'
-                                },
-
-                                {
-                                    name: 'KPI',
-                                    url: '{{ route('placeholder', 'dm-kpi') }}'
-                                }
-
-                            ]
-                        },
-
-                        {
-                            name: 'Projects',
-                            url: '{{ route('placeholder', 'dm-projects') }}'
-                        }
-
-                    ]
-                },
+                @endif
 
                 // =========================================================
                 // DATA KM
